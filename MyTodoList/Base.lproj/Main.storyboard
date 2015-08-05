@@ -17,35 +17,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xo-h7-HG3" userLabel="BtnGuardar">
-                                <rect key="frame" x="534" y="28" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribir tarea" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cq2-Gr-mlw">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribir tarea" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cq2-Gr-mlw">
                                 <rect key="frame" x="20" y="28" width="501" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UHe-Zj-DOH">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UHe-Zj-DOH">
                                 <rect key="frame" x="20" y="66" width="560" height="514"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xo-h7-HG3" userLabel="BtnGuardar">
+                                <rect key="frame" x="534" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UHe-Zj-DOH" firstAttribute="top" secondItem="Cq2-Gr-mlw" secondAttribute="bottom" constant="8" id="3Ki-VZ-sT6"/>
                             <constraint firstAttribute="leadingMargin" secondItem="UHe-Zj-DOH" secondAttribute="leading" id="B6G-hD-rEq"/>
+                            <constraint firstItem="7xo-h7-HG3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="FgF-7R-44H"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UHe-Zj-DOH" secondAttribute="trailing" id="Hov-JW-VuG"/>
                             <constraint firstItem="7xo-h7-HG3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="514" id="LK8-ar-wo9"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Cq2-Gr-mlw" secondAttribute="leading" id="WcB-av-j4J"/>
                             <constraint firstItem="7xo-h7-HG3" firstAttribute="leading" secondItem="Cq2-Gr-mlw" secondAttribute="trailing" constant="13" id="iI6-dO-wHg"/>
+                            <constraint firstItem="Cq2-Gr-mlw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="rIs-JD-5eo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UHe-Zj-DOH" secondAttribute="bottom" constant="20" id="xv0-rr-c6X"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="288" y="285"/>
+            <point key="canvasLocation" x="44" y="115"/>
         </scene>
     </scenes>
 </document>
